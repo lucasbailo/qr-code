@@ -9,30 +9,30 @@
 body {
     background-color: var(--Light-gray);
     font-family: var(--Outfit-font);
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    margin-top: 4em;
 }
 
 .main_container {
     background-color: var(--White);
     width: 70vw;
     border-radius: 10px;
+    padding: 0.5em;
 }
 
 .container__qr-code {
-    padding: 1em;  
     display: flex;
     justify-content: center;
 }
 
 .qr-code {
     align-items: center;
-    width: 60vw;
+    width: 100%;
     border-radius: 10px;
+    margin-top: 0.5em;
 }
 
 .qr-code:hover {
@@ -42,7 +42,6 @@ body {
 
 .container__description {
     padding: 1em; 
-    padding-top: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
