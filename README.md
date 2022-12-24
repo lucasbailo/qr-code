@@ -6,6 +6,8 @@ This is a solution to the [QR code component](https://www.frontendmentor.io/solu
 
 ![](./design/desktop-design.jpg)
 
+## Test the project on your device: [Teste the project here!!!](https://qr-code-snowy-mu.vercel.app/)
+
 ### Built with
 
 - Semantic HTML5;
